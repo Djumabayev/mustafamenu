@@ -8,13 +8,7 @@
        <option value="tr">Türkçe</option>
        <option value="ru">Русский</option>
    </select>
-   <script>
-       document.getElementById('language-selector').addEventListener('change', function() {
-           var lang = this.value;
-           var url = 'https://translate.google.com/translate?hl=' + lang + '&sl=auto&u=' + encodeURIComponent(window.location.href);
-           window.location.href = url;
-       });
-   </script>
+
 </body>
 </html>
     
